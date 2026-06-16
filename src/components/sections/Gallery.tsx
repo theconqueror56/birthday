@@ -50,7 +50,7 @@ export function Gallery() {
             >
               <img 
                 src={img.src} 
-                alt={img.alt} 
+                // alt={img.alt} 
                 loading="lazy"
                 decoding="async"
                 className="w-full h-auto object-cover transform transition-transform duration-1000 group-hover:scale-110"
@@ -99,7 +99,7 @@ export function Gallery() {
             >
               <img 
                 src={selectedImg.src} 
-                alt={selectedImg.alt} 
+                // alt={selectedImg.alt} 
                 loading="lazy"
                 decoding="async" 
                 className="max-w-full max-h-[90vh] object-contain rounded-md shadow-2xl ring-1 ring-white/10"

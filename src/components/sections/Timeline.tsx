@@ -84,11 +84,11 @@ export function Timeline() {
                       {event.description}
                     </p>
 
-                    {event.image && (
+                    {event && (
                       <div className="w-full h-48 md:h-64 mt-4 overflow-hidden rounded-xl shadow-lg relative">
                         <div className="absolute inset-0 bg-premium-rosegold/10 z-10 group-hover:opacity-0 transition-opacity duration-500" />
                         <img 
-                          src={event.image} 
+                          // src={event.image} 
                           alt={event.title} 
                           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                         />

@@ -104,7 +104,7 @@ export function Polaroids() {
                     {selectedImage.caption}
                   </span>
                   <span className="font-handwriting text-slate-400 text-xl md:text-2xl mt-2">
-                    {/* {selectedImage.date} */}
+                    {/* {selectedImage.date}    */}
                   </span>
                 </div>
               </motion.div>
