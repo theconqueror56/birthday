@@ -3,7 +3,6 @@ export interface TimelineEvent {
   date: string;
   title: string;
   description: string;
-  // image?: string;
 }
 
 export const TIMELINE_EVENTS: TimelineEvent[] = [
@@ -36,6 +35,5 @@ export const TIMELINE_EVENTS: TimelineEvent[] = [
     date: "Today",
     title: "Celebrating You",
     description: "Looking back at all these beautiful moments, and feeling so incredibly excited for all the memories we have yet to create.",
-    // image: "https://images.unsplash.com/photo-1494774157365-9e04c6720e47?q=80&w=2000&auto=format&fit=crop"
   }
 ];

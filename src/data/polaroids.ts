@@ -23,35 +23,30 @@ export const POLAROIDS: Polaroid[] = [
     id: 2,
     image: kid,
     caption: "Little Angel Walking 😊",
-    // date: "October 2022",
     rotation: 6,
   },
   {
     id: 3,
     image: manali,
     caption: "Laughing untill it hurt's 😂",
-    // date: "January 2023",
     rotation: -2,
   },
   {
     id: 4,
     image: birthday,
     caption: "Best Birthday Surprize 🎈",
-    // date: "March 2023",
     rotation: 5,
   },
   {
     id: 5,
     image: usschool,
     caption: "Quite mornings with you",
-    // date: "July 2023",
     rotation: -6,
   },
   {
     id: 6,
     image: usani,
     caption: "Forever my person ❤️",
-    // date: "Today",
     rotation: 3,
   }
 ];
